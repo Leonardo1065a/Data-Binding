@@ -15,13 +15,15 @@ import { EventBindingComponent } from './event-binding/event-binding.component'
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSelectModule } from '@angular/material/select';
+import { TwoWayDataBindingComponent } from './two-way-data-binding/two-way-data-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InterpolacaoComponent,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    TwoWayDataBindingComponent
   ],
   imports: [
     BrowserModule,
